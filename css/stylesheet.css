@@ -1,0 +1,151 @@
+body
+{
+    background-color:whitesmoke;
+    height: 1000px;
+}
+.container 
+{
+    width: 1170px;
+    margin: auto;
+}
+/* Start navbar */
+.navbar
+{
+    background-color: teal;
+    color: white;
+    overflow: hidden;
+}
+.navbar ul
+{
+    list-style: none;
+    padding-left: 0%;
+    overflow: hidden;
+    float: right;
+}
+.navbar h2
+{
+    float: left;
+}
+.navbar h2 span
+{
+    color: turquoise;
+}
+.navbar ul li
+{
+    font-size: 17px;
+    float: left;
+    padding: 10px;
+}
+/* End navbar */
+/* Start Slider */
+.slider {
+    
+    background-image: url(../images/image-1.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*
+.slider h1
+{
+    margin: 0%;
+    padding-top: 15%;
+    text-align: center ;
+    font-weight: 900px;
+    font-size: 100px;
+    font-style: italic;
+    color: white;
+}
+*/
+/* End Slider */ 
+/* Start Pets*/
+h1
+{
+    text-align: center;
+}
+.pets .dogs , .cats , .birds , .fishes
+{
+    float: left;
+    padding-left: 120px;
+}
+.pets img
+{
+    margin-top: 20px;
+    margin-left: 8px;
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+  }
+  .pets p
+  {
+      margin-left: 68px;
+      padding-bottom: 20px;
+  }
+/* End Pets */  
+.clear
+{
+    clear: both;
+}
+/* Start about us */ 
+.about 
+{
+    background-image: url(../images/image-2.jpg);
+    background-size: cover;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about h1
+{
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    color: white;
+}
+.about p 
+{
+    font-size: 25px;
+    font-weight: 900px;
+    color: white;
+}
+/* End about us */
+/* Start Contact Us */
+.contact h1
+{
+    font-size: 40px;
+    font-style: italic;
+}
+
+.contact .mails
+{
+    float: left;
+    padding-top: 13px;
+}
+.mails .right
+{
+    margin-right: 12px;
+}
+.mails .message
+{
+    width: 420px;
+    height: 85px;
+}
+.contact .more
+{
+    float: left;
+    padding-left: 100px;
+    font-weight: bolder;
+}
+/*End Contact us */
+/* Start Social */
+.logos
+{
+    background-color: teal;
+}
+.logos ul
+{
+    list-style: none;
+    float: left;
+}
